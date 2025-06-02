@@ -1,0 +1,94 @@
+/*Generic*/
+.text-orange {
+    color: #FE5534 !important;
+}
+
+.color-orange {
+    background: #FE5534 !important;
+}
+
+.background-light-blue {
+    background: #e3f2fd;
+}
+
+/*Primary button*/
+.btn-primary {
+    color: #fff;
+    background-color: #FE5534;
+    border-color: #FE5534;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fe6f52;
+    border-color: #fe6648;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #fe6f52;
+    border-color: #fe6648;
+    box-shadow: 0 0 0 0.25rem rgba(216, 72, 44, 0.5);
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #fe775d;
+    border-color: #fe6648;
+}
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(216, 72, 44, 0.5);
+}
+.btn-primary:disabled, .btn-primary.disabled {
+    color: #fff;
+    background-color: #FE5534;
+    border-color: #FE5534;
+}
+
+.scrollable{
+    max-height: 310px !important;
+    min-height: 310px !important;
+    margin-bottom: 10px !important;
+    overflow-y:scroll !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+.cardshadow{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bubbleWrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-end;
+    color: #fff;
+}
+.list-group-item-custom {
+	min-width: 60px;
+	padding: 14px 18px;
+    margin: 6px 8px;
+	background-color: #FE5534;
+	border-radius: 16px 16px 0 16px;
+	border: 1px solid #FE5534;
+    max-width: 190px;
+    min-width: 190px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inlineContainer {
+    display: inline-flex;
+}
+
+.userbadge {
+    position: relative;
+    float: left;
+    border-radius: 16px;
+    padding-left: 9px;
+    padding-right: 9px;
+    max-width: 150px;
+    background-color: #fe775d;
+}
+
+.custom-time{
+    position: relative;
+    float: right;
+    font-size: 10px;
+    margin-top: 7px;
+    color: rgba(255, 255, 255, 0.795);
+}
