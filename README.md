@@ -2,7 +2,7 @@
 
 This is a Laravel-based web application where users can watch different livestreams, a sort of Twitch but focussed on security aspects. It is designed to securely communicate with various external applications and AI services. While I developed this application independently, I also assisted in the architecture and integration planning of the other connected applications developed by team members.
 
-> This project was developed as part of a school assignment for an **Security and Computer Networking** course.
+> This project was developed as part of a school assignment for a **Security and Computer Networking** course.
 
 ---
 
